@@ -1,0 +1,25 @@
+html body {
+  background: none;
+}
+
+div.pane-content {
+  font-size: 14px;
+}
+
+.player-info.info-list {
+  list-style: none;
+}
+
+#page.page {
+  box-shadow: none;
+}
+
+tr, td {
+    background-color:white;
+}
+
+tr:nth-child(even), tr:nth-child(odd),
+tr:nth-child(even) td, tr:nth-child(odd) td {
+    background-color: white !important;
+    font-size: 14px;
+}
